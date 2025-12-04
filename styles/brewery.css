@@ -58,22 +58,16 @@ section h2 {
             margin: 0 auto;
         }
 
-        .grid-item1, .grid-item2, .grid-item3, .grid-item4,
-        .grid-item5, .grid-item6, .grid-item7, .grid-item8,
-        .grid-item9, .grid-item10, .grid-item11, .grid-item12 {
+        .grid-item {
             overflow: hidden;
             position: relative;
             background: #1a1a1a;
-            /* border: 2px solid #333; */
-            transition: transform 0.3s ease, border-color 0.3s ease;
+
         }
-        .grid-item1 img, .grid-item2 img, .grid-item3 img, .grid-item4 img,
-        .grid-item5 img, .grid-item6 img, .grid-item7 img, .grid-item8 img,
-        .grid-item9 img, .grid-item10 img, .grid-item11 img, .grid-item12 img {
+        .grid-item img{
             width: 228px;
             height: 171px;
             object-fit: cover;
-            display: block;
         }
         /* #endregion section */
 
