@@ -34,6 +34,7 @@ section {
   padding-top: 20px;
   color: #efefef;
   gap: 10px;
+  flex-wrap: wrap;
 }
 .card1 {
   display: flex;
