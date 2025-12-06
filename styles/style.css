@@ -1,4 +1,7 @@
 
+#active {
+  color: #ddc000; 
+}
 /* #region startmain */
 main {
     width: 100%;
@@ -22,7 +25,7 @@ section {
   background-color: black;
   display: flex;
   flex-direction: column;
-  position: absolute;
+  /* position: absolute; */
   z-index: 1;
   top: 74%;
 }
