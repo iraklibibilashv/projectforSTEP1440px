@@ -338,6 +338,9 @@ footer {
   .header-logo {
     left: 60%;
   }
+  .header-borderline {
+    display: none;
+  }
   .header-cart {
     top: 35%;
     left: 45%;
@@ -347,6 +350,7 @@ footer {
     top: 5%;
   }
   .footer-sides {
+    padding-left: 20px;
   width: 100%;
   flex-direction: column-reverse;
 }
