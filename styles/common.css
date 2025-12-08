@@ -7,6 +7,7 @@
   list-style: none;
   font-family: "kelly slab", fantasy;
 }
+
 html {
   background-color: black;
  
@@ -15,7 +16,17 @@ html {
   color: #dddc33;
 }
 a:visited {
-  color: white;
+  color: white;!important;
+}
+main {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../images/41d000_898b811241c2fb7001c61f77a0fa10ef.avif);
+  background-position: center -185px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  position: relative;
 }
 
 
@@ -170,7 +181,7 @@ nav li {
   background-color: black;
   display: none;
   position: absolute;
-  top: 35px;
+  top: 20px;
   z-index: 4;
 }
 li:hover .drop-down {
@@ -204,10 +215,7 @@ li:hover .drop-down {
 /* #region startfooter */
 footer {
   width: 100%;
-  height: 13vh;
   background-color: black;
-  /* position: absolute; */
-  bottom: -24%;
   z-index: 6;
 }
 .footer-line {
@@ -331,6 +339,7 @@ footer {
     html {
    background-image: url(../images/41d000_898b811241c2fb7001c61f77a0fa10ef.avif);
   background-position: top top;
+  background-repeat: no-repeat;
   }
   header {
     margin-top: 20px;
@@ -355,10 +364,14 @@ footer {
   flex-direction: column-reverse;
 }
 footer {
-  height: 20vh;
+  /* height: 20vh; */
 }
 }
-
+@media screen and (max-width:900px) {
+  .footer-right button {
+    display: none;
+  }
+}
 
 
 
