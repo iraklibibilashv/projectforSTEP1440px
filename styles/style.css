@@ -2,10 +2,12 @@
 #active {
   color: #ddc000; 
 }
+
 /* #region startmain */
 main {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
+    min-height: 400px;
     background-image: url(../images/41d000_898b811241c2fb7001c61f77a0fa10ef.avif);
     background-position: center -185px;
     background-size: cover;
@@ -21,17 +23,13 @@ main {
 /* #region startsection */
 section {
   width: 100%;
-  height: 40vh;
   background-color: black;
   display: flex;
   flex-direction: column;
-  /* position: absolute; */
-  z-index: 1;
-  top: 74%;
+
 }
 .cards {
   width: 100%;
-  height: 20vh;
   display: flex;
   justify-content: center;
   padding-top: 20px;
@@ -69,15 +67,19 @@ section {
 }
 .card1-button {
   margin-top: auto;
+  padding-bottom: 15px;
 }
 .card2-button {
   margin-top: auto;
+  padding-bottom: 15px;
 }
 .card3-button {
   margin-top: auto;
+    padding-bottom: 15px;
 }
 .card4-button {
   margin-top: auto;
+    padding-bottom: 15px;
 }
 .card1-button button {
   background-color: transparent;
@@ -196,6 +198,61 @@ section {
   background-color: white;
 }
 /* #endregion section */
+
+@media screen and (max-width:745px) {
+  .cards {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+
+  }
+  .card1 {
+    width: 50%;
+    height: auto;
+  }
+  .card2 {
+    width: 50%;
+    height: auto;
+  }
+  .card3 {
+    width: 50%;
+    height: auto;
+  }
+  .card4 {
+    display: none;
+  }
+  
+}
+@media screen and (max-width:900px) {
+  .footer-right button {
+    display: none;
+  }
+  
+}
+@media screen and (max-width:1270px) {
+  main {
+    background-position: center center;
+  }
+}
+@media screen and  (max-width:480px) {
+  .card1 {
+    width: 90%;
+  }
+  .card2 {
+    width: 90%;
+
+  }
+  .card3 {
+    width: 90%;
+  }
+  .cards-borderline {
+    width: 90%;
+  }
+
+}
 
 
 
