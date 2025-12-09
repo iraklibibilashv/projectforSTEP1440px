@@ -1,0 +1,53 @@
+
+
+
+
+
+
+section {
+  width: 70%;
+  height: 160vh;
+  background-color: black;
+  position: absolute;
+  top: 25%;
+  right: 13%;
+  color: #efefef;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  z-index: 3;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.section-header {
+    padding-top: 30px;
+    text-align: center;
+}
+.section-header h4 {
+    font-size: 34px;
+    font-weight: 200;
+}
+.section-header p {
+    
+    font-size: 16px;
+    max-width: 700px;
+}
+.beers1 {
+    width: 100%;
+    height: 30vh;
+    /* background-color: red; */
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.section-borderline1 {
+    width: 90%;
+    border: white dashed 1px;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: -100%;
+}

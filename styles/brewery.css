@@ -1,10 +1,7 @@
 
-
-
-
-/* #region startmain */
-
-/* #endregion main */
+#active {
+  color: #ddc000; 
+}
 
 /* #region startsection */
 section {
@@ -95,6 +92,8 @@ footer {
 }
 
 
+/* #region media */
+
 @media screen and (max-width:640px) {
   section {
     top: 40%;
@@ -111,6 +110,7 @@ footer {
 }
 @media (max-width: 600px) {
   .grid-container {
-    grid-template-columns: 1fr; /* ანუ 1 კოლონა */
+    grid-template-columns: 1fr; 
   }
 }
+/* #endregion media */

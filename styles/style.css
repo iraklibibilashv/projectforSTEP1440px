@@ -1,22 +1,4 @@
 
-#active {
-  color: #ddc000; 
-}
-
-/* #region startmain */
-main {
-    width: 100%;
-    height: 50vh;
-    min-height: 400px;
-    background-image: url(../images/41d000_898b811241c2fb7001c61f77a0fa10ef.avif);
-    background-position: center -185px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 60px 20px;
-    position: relative;
-}
-/* #endregion main */
-
 
 
 
@@ -199,6 +181,9 @@ section {
 }
 /* #endregion section */
 
+
+/* #region starmedia */
+
 @media screen and (max-width:745px) {
   .cards {
     flex-direction: column;
@@ -254,5 +239,5 @@ section {
 
 }
 
-
+/* #endregion media */
 
