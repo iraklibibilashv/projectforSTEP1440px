@@ -218,7 +218,7 @@ li:hover .drop-down {
 footer {
   width: 100%;
   background-color: black;
-  z-index: 6;
+  z-index: 999;
 }
 .footer-line {
   width: 100%;
@@ -318,8 +318,8 @@ footer {
     display: none;
   }
 .header-cart {
-  left: 50%;
-  top: 10%;
+  left: 94%;
+  top: 7%;
 }
 }
 @media screen and (max-width:640px) {
@@ -327,7 +327,7 @@ footer {
     height: 40vh;
   }
   .header-logo {
-    left: 92%;
+    left: 85%;
 
   }
   .header-cart {
