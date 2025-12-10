@@ -40,7 +40,7 @@ section {
 
 .section2 {
   width: 100%;
-  height: 131vh;
+  height: 106vh;
   /* background-color: red; */
 }
 
@@ -103,7 +103,7 @@ section {
 /* #region start beers2 */
 .beers2 {
   width: 100%;
-  height: 30vh;
+  /* height: 30vh; */
   display: flex;
 
 }
@@ -145,7 +145,7 @@ section {
 /* #region start beers3 */
 .beers3 {
   width: 100%;
-  height: 30vh;
+  /* height: 30vh; */
   display: flex;
 
 }
@@ -186,7 +186,7 @@ section {
 /* #region start beers4 */
 .beers4 {
   width: 100%;
-  height: 30vh;
+  /* height: 30vh; */
   display: flex;
 
 }
@@ -228,7 +228,7 @@ section {
 
 .beers5 {
   width: 100%;
-  height: 30vh;
+  /* height: 30vh; */
   display: flex;
 
 }
