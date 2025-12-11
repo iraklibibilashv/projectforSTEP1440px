@@ -179,6 +179,12 @@ section {
   height: 1px;
   background-color: white;
 }
+
+
+#check:checked ~ nav ul li:nth-child(1) {
+  background-color: #ddc000;
+}
+
 /* #endregion section */
 
 

@@ -66,6 +66,7 @@ header {
   
 }
 .burgerline1, .burgerline2, .burgerline3 {
+  width: 30px;
       height:3px;
     background:#ffd500;
     border-radius:2px;
@@ -106,6 +107,43 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#check:checked ~ nav ul li {
+    width: 80%;
+  padding: 18px;
+  border: 2px solid #ddc000;
+  color: #ddc000;
+  font-size: 18px;
+  text-align: left;
+  background: black;
+  transition: .3s;
+}
+#check:checked ~ nav ul li a {
+  color: #ddc000;
+}
+
+#check:checked ~ nav ul li #active {
+  color: black;
+}
+#check:checked ~ nav ul li .drop-down {
+  display:none;
+  position: relative;
+  width: 105%;
+  padding: 18px;
+  /* border: 2px solid #ddc000; */
+  color: #ddc000;
+  font-size: 18px;
+  text-align: left;
+  background-color: black;
+  transition: .3s;
+}
+#check:checked ~ nav ul li:hover .drop-down {
+  transition: 0.8s;
+  display: block;
+}
+#check:checked ~ nav ul li span {
+  display:inline-block;
+  
 }
 .header-logo {
   width: 250px;
@@ -176,6 +214,9 @@ a:active {
 }
 nav li {
   position: relative;
+}
+nav ul li span {
+  display: none;
 }
 .drop-down {
   width: 120px;
@@ -264,6 +305,23 @@ footer {
   cursor: pointer;
   z-index: 999;
 }
+.btn-chat button {
+  display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: #d4b900; /* ყვითელი */
+    border-radius: 50%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    z-index: 9999;
+}
 .footer-right a {
   font-size: 24px;
   color: white;
@@ -272,6 +330,8 @@ footer {
   padding-right: 105px;
   padding-top: 10px;
 }
+
+
 /* #endregion footer */
 
 
@@ -309,7 +369,7 @@ footer {
   
 }
   .header-right {
-    padding-right: 10px;
+    padding-right: 30px;
     padding-bottom: 20px;
     display: flex;
     justify-content: flex-end;
@@ -319,7 +379,7 @@ footer {
     display: none;
   }
 .header-cart {
-  left: 94%;
+  left: 91%;
   top: 7%;
 }
 }
@@ -371,6 +431,12 @@ footer {
 @media screen and (max-width:900px) {
   .footer-right button {
     display: none;
+  }
+  .btn-chat button {
+    display: flex;
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
   }
 }
 

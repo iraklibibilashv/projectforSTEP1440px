@@ -38,6 +38,12 @@ section {
 
 /* #endregion section */
 
+
+#check:checked ~ nav ul li:nth-child(2) {
+  background-color: #ddc000;
+}
+
+
 .section2 {
   width: 100%;
   height: 106vh;
@@ -316,7 +322,6 @@ section {
 .beers1, .beers2, .beers3, .beers4, .beers5 {
   flex-direction: column;
   width: 100%;
-  height: auto;
   position: relative;
   align-items: center;
 }

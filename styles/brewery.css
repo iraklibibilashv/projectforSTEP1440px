@@ -78,6 +78,12 @@ section h2 {
 }
 
 
+
+#check:checked ~ nav ul li:nth-child(6) {
+  background-color: #ddc000;
+}
+
+
 /* #endregion section */
 
 
