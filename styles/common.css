@@ -71,8 +71,12 @@ header {
     background:#ffd500;
     border-radius:2px;
     transition:.3s;
-  
-  
+}
+.log-in a {
+  display: none;
+  color: #ddc000;
+   font-family: "open sans", sans-serif;
+   font-size: 16px;
 }
 #check {
   display: none;
@@ -144,6 +148,12 @@ header {
 #check:checked ~ nav ul li span {
   display:inline-block;
   
+}
+#check:checked ~ nav .log-in a {
+  display: flex;
+  position: absolute;
+  top: 8%;
+  left: 10%;
 }
 .header-logo {
   width: 250px;
@@ -370,17 +380,17 @@ footer {
 }
   .header-right {
     padding-right: 30px;
-    padding-bottom: 20px;
+    padding-top: 20px;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: flex-start;
   }
   nav  {
     display: none;
   }
 .header-cart {
   left: 91%;
-  top: 7%;
+  top: 17%;
 }
 }
 @media screen and (max-width:640px) {
