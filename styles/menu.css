@@ -1,0 +1,119 @@
+
+#check:checked ~ nav ul li:nth-child(3) {
+  background-color: #ddc000;
+}
+
+
+section {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.fullmenu {
+    width: 70%;
+    background-color: black;
+    position: absolute;
+    top: -140%;
+    right: 13%;
+    z-index: 3;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.menu-box1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column  ;
+}
+.menu-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    padding-top: 30px;
+}
+.menu-header h4 {
+    font-weight: 500;
+}
+.menu-header2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    gap: 5px;
+    padding-top: 70px;
+}
+.menu-header2 h4 {
+    font-size: 24px;
+    color: #ddc000;
+    font-weight: 200;
+}
+.menu-header2 p {
+    font-size: 13px;
+    font-family: "open sans",sans-serif;
+    padding-bottom: 30px;
+}
+.menu-box2 {
+    width: 100%;
+    display: flex;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+
+}
+.menu-box3 {
+    width: 100%;
+    display: flex;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+.menu-box4 {
+    width: 100%;
+    display: flex;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+.menu-box5 {
+    width: 100%;
+    display: flex;
+}
+.menu-left {
+    width: 70%;
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+    gap: 10px;
+}
+.menu-left h5 {
+    padding-top: 30px;
+    font-size: 16px;
+    font-family: "open sans",sans-serif;
+}
+.menu-left p {
+    font-size: 14px;
+     font-family: "open sans",sans-serif;
+}
+.menu-right {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-right p {
+    padding-top: 30px;
+        font-size: 16px;
+    font-family: "open sans",sans-serif;
+
+}
+.menu-right img {
+    width: 50%;
+    height: 100%;
+}

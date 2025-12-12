@@ -24,28 +24,28 @@ section {
   flex-direction: column;
   gap: 10px;
   width: 17%;
-  height: 27vh;
+  /* height: 27vh; */
 }
 .card2 {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 17%;
-  height: 27vh;
+  /* height: 27vh; */
 }
 .card3 {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 17%;
-  height: 27vh;
+  /* height: 27vh; */
 }
 .card4 {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 17%;
-  height: 27vh;
+  /* height: 27vh; */
 }
 .card1-button {
   margin-top: auto;

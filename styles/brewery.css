@@ -1,3 +1,12 @@
+main{
+  position: absolute !important;
+  top: 100px;
+  z-index: -1;
+
+  height: 85vh !important;
+
+}
+
 
 #active {
   color: #ddc000; 
@@ -7,9 +16,12 @@
 section {
   width: 70%;
   background-color: black;
-  position: absolute;
+        margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: absolute;
   top: 25%;
-  right: 15%;
+  right: 15%; */
   color: #efefef;
   display: flex;
   flex-direction: column;
@@ -18,7 +30,6 @@ section {
   padding-left: 30px;
   padding-right: 30px;
 }
-
 section h2 {
   padding-top: 40px;
   font-size: 28px;
@@ -106,10 +117,7 @@ section h2 {
     grid-template-columns: 1fr; 
   }
 
-  footer {
-    position: absolute;
-    bottom: -490%;
-  }
+
 }
 
 /* #endregion media */
