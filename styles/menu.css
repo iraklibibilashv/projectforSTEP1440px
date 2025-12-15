@@ -163,3 +163,9 @@ section {
     }
     
 }
+@media screen and (max-width:400px) {
+    .menu-right p {
+        bottom: -10%;
+    }
+    
+}
