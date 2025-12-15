@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #ddc000;
+}
+html {
+    background-color: black;
+}
+main {
+  width: 100%;
+  height: 90vh;
+  background-image: url(../images/41d000_898b811241c2fb7001c61f77a0fa10ef.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute !important;
+  top: 100px;
+  z-index: -1;
+}
+section {
+  width: 80%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border: 3px solid #ddc000;
+  border-bottom: none;
+}
+.form-header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-header h2 {
+  font-size: 60px;
+  font-family: "kelly slabs", fantasy;
+  letter-spacing: 10px;
+}
+.form-header p {
+  font-family: "open sans", sans-serif;
+  font-size: 20px;
+}
+.full-input {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.input-line1 {
+  display: flex;
+  flex-direction: column;
+}
+.input-line1 label {
+  font-family: "open sans", sans-serif;
+  font-size: 14px;
+  color: #ddc000;
+  padding-bottom: 2px;
+}
+.input-line2 {
+  display: flex;
+  flex-direction: column;
+}
+.input-line2 label {
+  font-family: "open sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2px;
+}
+.input-line2 label p {
+  color: #ddc000;
+  font-size: 14px;
+}
+.input-line2 label a {
+  color: #4493f8;
+  font-size: 14px;
+}
+#firstname {
+  width: 352px;
+  height: 40px;
+  padding: 5px 12px;
+  background-color: #0d1117;
+  border-radius: 8px;
+  border: 1px solid wheat;
+}
+#lastname {
+  width: 352px;
+  height: 40px;
+  padding: 5px 12px;
+  background-color: #0d1117;
+  border-radius: 8px;
+  border: 1px solid wheat;
+}
+.full-input button {
+  width: 352px;
+  height: 40px;
+  padding: 5px 16px;
+  border-radius: 8px;
+  background-color: #ddc000;
+  color: #f0f6fc;
+  border: none;
+  cursor: pointer;
+}
+.full-input button:hover {
+  background-color: #ecd95df8;
+}
+
+.form-header2 {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.form-header2 p {
+  padding: 0px 10px;
+}
+.line1 {
+  width: 160px;
+  height: 1px;
+  background-color: wheat;
+}
+.full-input2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
+.full-input2 i {
+  font-size: 18px;
+}
+.full-input2 button {
+  width: 352px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 0 12px;
+  background-color: #212830;
+  border: none;
+  cursor: pointer;
+  font-family: "open sans", sans-serif;
+}
+.full-input2 button:hover {
+  background-color: #343d47;
+}
+.full-input3 {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  font-family: "open sans", sans-serif;
+}
+.full-input3 a {
+  color: #4493f8;
+  font-size: 14px;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  padding-top: 30px;
+  display: flex;
+  border: 3px solid #ddc000;
+  border-top: none;
+}
+nav {
+  width: 100%;
+}
+.footer nav ul {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: "open sans", sans-serif;
+  font-size: 12px;
+}
+a:hover {
+  text-decoration: underline;
+}
+li a:hover {
+  color: #4493f8;
+}
