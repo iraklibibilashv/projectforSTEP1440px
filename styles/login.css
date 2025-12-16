@@ -198,3 +198,44 @@ a:hover {
 li a:hover {
   color: #4493f8;
 }
+
+@media screen and (max-width:460px) {
+  .full-input2 button {
+width: 300px;
+  }
+  #firstname {
+    width: 300px;
+  }
+  #lastname {
+    width: 300px;
+  }
+  .input-line2 label {
+  }
+  .full-input button {
+    width: 300px;
+  }
+  .footer nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .line1 {
+    width: 110px;
+  }
+
+}
+@media screen and (max-width:460px) {
+    .full-input2 button {
+width: 250px;
+  }
+  #firstname {
+    width: 250px;
+  }
+  #lastname {
+    width: 250px;
+  }
+  .input-line2 label {
+  }
+  .full-input button {
+    width: 250px;
+  }
+}
