@@ -15,7 +15,7 @@ html {
  
 }
 #active {
-  color: #dddc33;
+  color: #dddc33 !important;
 }
 a:visited {
   color: white !important;

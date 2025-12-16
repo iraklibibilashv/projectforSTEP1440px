@@ -1,6 +1,4 @@
-#active {
-  color: #dddc33;
-}
+
 
 #check:checked ~ nav ul li:nth-child(5) {
   background-color: #ddc000;
