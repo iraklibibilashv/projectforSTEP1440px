@@ -2,9 +2,7 @@ main{
   position: absolute !important;
   top: 100px;
   z-index: -1;
-
   height: 120vh !important;
-
 }
 
 /* #region start section */
