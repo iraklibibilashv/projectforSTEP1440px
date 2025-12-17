@@ -12,7 +12,7 @@ main {
 
 section {
   width: 70%;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: black;
   margin-top: 0%;
   margin-left: auto;
@@ -28,7 +28,7 @@ section {
 }
 .section1 {
   width: 100%;
-  height: 35vh;
+  /* height: 35vh; */
   padding-top: 40px;
   padding-left: 40px;
   display: flex;
@@ -55,10 +55,10 @@ section {
   font-size: 14px;
 }
 .section1-header2 button i {
-    font-size: 10px;
+  font-size: 10px;
 }
 .section1-header3 {
-    display: flex;
+  display: flex;
 }
 .btn-1 button {
   padding: 12px 55px;
@@ -67,6 +67,7 @@ section {
   color: #ffffff;
   font-family: "open sans", sans-serif;
   font-size: 16px;
+  cursor: pointer;
 }
 .btn-2 button {
   padding: 12px 51px;
@@ -75,54 +76,140 @@ section {
   color: #ffffff;
   font-family: "open sans", sans-serif;
   font-size: 16px;
+  cursor: pointer;
 }
 .section1-header4 {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 .section1-header4 p {
-      color: #ffffff;
+  color: #ffffff;
   font-family: "open sans", sans-serif;
   font-size: 16px;
-
 }
 .section1-header4 span {
-    text-decoration: underline;
-    color: #ddc000;
-      font-family: "open sans", sans-serif;
+  text-decoration: underline;
+  color: #ddc000;
+  font-family: "open sans", sans-serif;
   font-size: 16px;
   cursor: pointer;
 }
 .section1-header4 span:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 .section2 {
-    width: 100%;
-    height: 15vh;
-    display: flex;
-    padding-left: 40px;
-    flex-direction: column;
-    gap: 30px;
-    border-bottom: 1px solid grey;
+  width: 100%;
+  display: flex;
+  padding-left: 40px;
+  flex-direction: column;
+  gap: 30px;
+  border-bottom: 1px solid grey;
 }
 .section2-header1 {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 .section2-header1 h5 {
-    padding-left: 10px;
-          color: #ffffff;
+  padding-left: 10px;
+  color: #ffffff;
   font-family: "open sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 .line1 {
-    width: 12%;
-    border-top: 2px solid #ddc000;
+  width: 12%;
+  border-top: 2px solid #ddc000;
 }
 .section2-header2 h5 {
-    font-size: 32px;
-    color: #efefef;
+  font-size: 32px;
+  color: #efefef;
+}
+.section3 {
+  padding-left: 40px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+.section3-header1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 20px;
+}
+.section3-header1 h5 {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: normal;
+}
+.section3-header1 p {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "open sans", sans-serif;
+}
+.section3-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+.section3-cards1 {
+  display: flex;
+  gap: 30px;
+}
+.section3-cards2 {
+  display: flex;
+  gap: 30px;
+}
+.card1 {
+  width: 50%;
+  border: 1px solid gray;
+  display: flex;
+  background-color: rgb(241, 255, 120, 0.1);
+}
+.card2 {
+  width: 50%;
+  border: 1px solid gray;
+  display: flex;
+  background-color: rgb(241, 255, 120, 0.1);
+}
+.card-left {
+  width: 40%;
+}
+.card-left img {
+  width: 100%;
+  padding: 10px;
+}
+.card-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-right h5 {
+  font-size: 22px;
+  color: #ffffff;
+  padding-top: 10px;
+}
+.card-right p {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "open sans", sans-serif;
+}
+.card-right p:nth-child(3) {
+  margin-top: auto;
+  padding-bottom: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "open sans", sans-serif;
+}
+.card1:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+.card2:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
 }
