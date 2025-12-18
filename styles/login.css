@@ -249,4 +249,10 @@ li a:hover {
     width: 250px;
   }
 }
+@media screen and (max-width: 360px) {
+  section {
+    width: 90%;
+  }
+
+}
 /* #endregion media */
