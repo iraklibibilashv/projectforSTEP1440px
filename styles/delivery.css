@@ -28,7 +28,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* #region start section */
 section {
   width: 50%;
   height: 35vh;
@@ -132,3 +132,5 @@ section .scroll-section {
   width: 50%;
   height: 5vh;
 }/*# sourceMappingURL=delivery.css.map */
+
+/* #endregion section */

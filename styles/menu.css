@@ -13,7 +13,7 @@ main{
 }
 
 
-
+/* #region start section */
 section {
   width: 70%;
   background-color: black;
@@ -123,8 +123,9 @@ section {
     width: 50%;
     height: 100%;
 }
+/* #endregion section */
 
-
+/* #region start media */
 @media screen and (max-width:800px) {
 .menu-box2,.menu-box3,.menu-box4,.menu-box5 {
         flex-direction: column-reverse;
@@ -168,3 +169,4 @@ section {
     }
     
 }
+/* #endregion media */

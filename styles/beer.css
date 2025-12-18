@@ -4,6 +4,9 @@ main{
   z-index: -1;
   height: 120vh !important;
 }
+#check:checked ~ nav ul li:nth-child(2) {
+  background-color: #ddc000;
+}
 
 /* #region start section */
 section {
@@ -42,10 +45,6 @@ section {
 
 /* #endregion section */
 
-
-#check:checked ~ nav ul li:nth-child(2) {
-  background-color: #ddc000;
-}
 /* #region start beers1 */
 
 .beers1 {

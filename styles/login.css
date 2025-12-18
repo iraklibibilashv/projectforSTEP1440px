@@ -9,7 +9,7 @@
   color: #ddc000;
 }
 html {
-    background-color: black;
+  background-color: black;
 }
 main {
   width: 100%;
@@ -31,6 +31,9 @@ section {
   display: flex;
   flex-direction: column;
 }
+
+/* #region start form */
+
 form {
   width: 100%;
   display: flex;
@@ -168,6 +171,10 @@ form {
   font-size: 14px;
 }
 
+/* #endregion form */
+
+/* #region start footer */
+
 .footer {
   width: 100%;
   background-color: black;
@@ -199,9 +206,13 @@ li a:hover {
   color: #4493f8;
 }
 
-@media screen and (max-width:460px) {
+/* #endregion footer */
+
+/* #region start media */
+
+@media screen and (max-width: 460px) {
   .full-input2 button {
-width: 300px;
+    width: 300px;
   }
   #firstname {
     width: 300px;
@@ -221,11 +232,10 @@ width: 300px;
   .line1 {
     width: 110px;
   }
-
 }
-@media screen and (max-width:460px) {
-    .full-input2 button {
-width: 250px;
+@media screen and (max-width: 460px) {
+  .full-input2 button {
+    width: 250px;
   }
   #firstname {
     width: 250px;
@@ -239,3 +249,4 @@ width: 250px;
     width: 250px;
   }
 }
+/* #endregion media */
