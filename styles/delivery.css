@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "kelly slab", fantasy;
+  src: url(../fonts/KellySlab-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "open sans", sans-serif;
+  src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+a:visited {
+  color: grey;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/41d000_898b811241c2fb7001c61f77a0fa10ef.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  width: 50%;
+  height: 35vh;
+  background-color: black;
+  position: absolute;
+  right: 25%;
+  top: 31%;
+}
+section .section1 {
+  padding: 15px 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+section .section1 p {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "kelly slab", fantasy;
+  font-weight: normal;
+}
+section .section1 a {
+  font-size: 16px;
+}
+section .section2 {
+  display: flex;
+  padding: 15px 15px;
+}
+section .btn-1 button {
+  border: 1px solid grey;
+  padding: 12px 148px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "open sans", sans-serif;
+  cursor: pointer;
+}
+section .btn-1 button:hover {
+  border: 1px solid #ffffff;
+}
+section .btn-2 button {
+  padding: 12px 134px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "open sans", sans-serif;
+  border: 1px solid #ddc000;
+  background-color: rgba(221, 192, 0, 0.1176470588);
+  cursor: pointer;
+}
+section .section3 {
+  padding: 15px 15px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column-reverse;
+  border-bottom: 1px solid gray;
+}
+section .section3 input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid grey;
+  background-color: transparent;
+  padding: 5px 15px;
+  font-family: "open sans", sans-serif;
+}
+section .section3 input:hover {
+  border: 1px solid #ffffff;
+}
+section .section3 label {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+section .section4 {
+  width: 100%;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+section .section4 button {
+  padding: 12px 65px;
+  background-color: gray;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "open sans", sans-serif;
+}
+section .scroll-section {
+  height: 25vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}/*# sourceMappingURL=delivery.css.map */

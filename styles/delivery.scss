@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "kelly slab",fantasy;
+    src: url(../fonts/KellySlab-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "open sans",sans-serif;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
+$font1: "kelly slab",fantasy;
+$font2: "open sans",sans-serif;
+$main-color: #ffffff;
+$secondary-color: grey;
+$size: 16px;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: $main-color;
+}
+
+
+a:visited {
+  color: $secondary-color;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/41d000_898b811241c2fb7001c61f77a0fa10ef.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  width: 50%;
+  height: 35vh;
+  background-color: black;
+  position: absolute;
+  right: 25%;
+  top: 31%;
+  .section1 {
+    padding: 15px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .section1 p {
+    font-size: 20px;
+    color: $main-color;
+    font-family: $font1;
+    font-weight: normal;
+  }
+  .section1 a {
+    font-size: $size;
+  }
+  .section2 {
+    display: flex;
+    padding: 15px 15px;
+  }
+  .btn-1 button {
+    border: 1px solid $secondary-color;
+    padding: 12px 148px;
+    font-size: $size;
+    background-color: transparent;
+    color: $main-color;
+    font-family: $font2;
+    cursor: pointer;
+    &:hover {
+        border: 1px solid #ffffff;
+    }
+  }
+  .btn-2 button {
+    padding: 12px 134px;
+    background-color: transparent;
+    color: $main-color;
+    font-size: $size;
+    font-family: $font2;
+    border: 1px solid #ddc000;
+    background-color: #ddc0001e;
+    cursor: pointer;
+  }
+  .section3 {
+    padding: 15px 15px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-bottom: 1px solid gray;
+    input {
+        width:100%;
+        height: 45px;
+        border: 1px solid $secondary-color;
+        background-color: transparent;
+        padding: 5px 15px;
+        font-family: $font2;
+        &:hover {
+            border: 1px solid #ffffff;
+        }
+    }
+    label {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+  }
+  .section4 {
+    width: 100%;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: flex-end;
+    button {
+        padding: 12px 65px;
+        background-color: gray;
+        color: $main-color;
+        font-size: $size;
+        font-family: $font2;
+    }
+  }
+  .scroll-section {
+    height: 25vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
