@@ -1,0 +1,113 @@
+main {
+  position: absolute !important;
+  top: 100px;
+  z-index: -1;
+  height: 60vh !important;
+}
+a {
+  color: #efefef;
+}
+section {
+  width: 70%;
+  height: 60vh;
+  background-color: black;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #efefef;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  z-index: 3;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.section1 {
+  width: 100%;
+  display: flex;
+  padding-top: 40px;
+}
+.section-left {
+  padding-top: 20px;
+  margin-right: 10px;
+  width: 30%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.section-left h4 {
+  font-size: 32px;
+  color: #efefef;
+}
+.section-right {
+  margin-left: 10px;
+  width: 70%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.section-right h5 {
+  padding-top: 40px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.right-contact1 p {
+  font-size: 12px;
+  font-family: "open sans", sans-serif;
+  color: #efefef;
+}
+.right-contact2 {
+    display: flex;
+    gap: 30px;
+}
+.right-contact2 p {
+  font-size: 12px;
+  font-family: "open sans", sans-serif;
+  color: #efefef;
+}
+.fullinput {
+    display: flex;
+    gap: 5px;
+}
+.input1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    height: 12vh;
+}
+.input1 input {
+    width: 100%;
+    height: 23%;
+    border: 1px solid white;
+    background-color: transparent;
+      font-family: "open sans", sans-serif;
+      padding: 3px 3px 3px 12px;
+}
+.input2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    height: 13vh;
+}
+.input2 input {
+    width: 100%;
+    height: 85%;
+    border: 1px solid white;
+    padding-left: 16px;
+    padding-bottom: 29px;
+    background-color: transparent;
+          font-family: "open sans", sans-serif;
+}
+.input2 button {
+    width: 50%;
+    height: 30%;
+    background-color: #ddc000;
+    margin-left: auto;
+     font-family: "open sans", sans-serif;
+}
