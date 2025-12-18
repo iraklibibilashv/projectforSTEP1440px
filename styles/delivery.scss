@@ -60,12 +60,14 @@ section {
     font-size: $size;
   }
   .section2 {
+    width: 100%;
     display: flex;
     padding: 15px 15px;
   }
   .btn-1 button {
     border: 1px solid $secondary-color;
-    padding: 12px 148px;
+    width: 100%;
+    height: 100%;
     font-size: $size;
     background-color: transparent;
     color: $main-color;
@@ -76,7 +78,8 @@ section {
     }
   }
   .btn-2 button {
-    padding: 12px 134px;
+    width: 100%;
+    height: 100%;
     background-color: transparent;
     color: $main-color;
     font-size: $size;
@@ -113,7 +116,8 @@ section {
     display: flex;
     justify-content: flex-end;
     button {
-        padding: 12px 65px;
+        height: 5vh;
+        width: 20%;
         background-color: gray;
         color: $main-color;
         font-size: $size;
@@ -125,4 +129,13 @@ section {
     overflow-y: auto;
     overflow-x: hidden;
   }
+  
+}
+.btn-1 {
+    width: 50%;
+    height: 5vh;
+}
+.btn-2 {
+    width: 50%;
+    height: 5vh;
 }
