@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "kelly slab", fantasy;
+  font-family: kellyslab;
   src: url(../fonts/KellySlab-Regular.ttf);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "open sans", sans-serif;
+  font-family: opensans;
   src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 * {
@@ -14,6 +14,7 @@
   text-decoration: none;
   box-sizing: border-box;
   color: #ffffff;
+  font-family: kellyslabs, fantasy;
 }
 
 a:visited {
@@ -28,7 +29,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* #region start section */
+
 section {
   width: 50%;
   height: 35vh;
@@ -46,7 +47,7 @@ section .section1 {
 section .section1 p {
   font-size: 20px;
   color: #ffffff;
-  font-family: "kelly slab", fantasy;
+  font-family: kellyslab, fantasy;
   font-weight: normal;
 }
 section .section1 a {
@@ -64,7 +65,7 @@ section .btn-1 button {
   font-size: 16px;
   background-color: transparent;
   color: #ffffff;
-  font-family: "open sans", sans-serif;
+  font-family: opensans, sans-serif;
   cursor: pointer;
 }
 section .btn-1 button:hover {
@@ -76,7 +77,7 @@ section .btn-2 button {
   background-color: transparent;
   color: #ffffff;
   font-size: 16px;
-  font-family: "open sans", sans-serif;
+  font-family: opensans, sans-serif;
   border: 1px solid #ddc000;
   background-color: rgba(221, 192, 0, 0.1176470588);
   cursor: pointer;
@@ -94,7 +95,7 @@ section .section3 input {
   border: 1px solid grey;
   background-color: transparent;
   padding: 5px 15px;
-  font-family: "open sans", sans-serif;
+  font-family: opensans, sans-serif;
 }
 section .section3 input:hover {
   border: 1px solid #ffffff;
@@ -102,6 +103,7 @@ section .section3 input:hover {
 section .section3 label {
   font-size: 14px;
   padding-bottom: 10px;
+  font-family: opensans, sans-serif;
 }
 section .section4 {
   width: 100%;
@@ -115,7 +117,7 @@ section .section4 button {
   background-color: gray;
   color: #ffffff;
   font-size: 16px;
-  font-family: "open sans", sans-serif;
+  font-family: opensans, sans-serif;
 }
 section .scroll-section {
   height: 25vh;
@@ -132,5 +134,3 @@ section .scroll-section {
   width: 50%;
   height: 5vh;
 }/*# sourceMappingURL=delivery.css.map */
-
-/* #endregion section */
