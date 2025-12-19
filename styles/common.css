@@ -491,7 +491,7 @@ footer {
 }
 @media screen and (max-width:640px) {
   header {
-    height: 30vh;
+    height: 40vh;
   }
   .header-logo {
     left: 85%;
