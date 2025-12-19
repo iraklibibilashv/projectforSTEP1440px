@@ -551,18 +551,18 @@ footer {
 }
 @media screen and (max-width:480px) {
   .chatbox {
-    height: 100vh;
+    height: 90vh;
     width: 400px;
-  top: 10px;
+  top: 35px;
   right: 10px;
   }
 }
 @media screen and (max-width:400px) {
   .chatbox {
-    height: 100vh;
-    width: 330px;
+    height: 90vh;
+    width: 300px;
     right: 10px;
-    top: 10px;
+    top: 35px;
   }
 }
 
