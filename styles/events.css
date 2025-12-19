@@ -1,9 +1,11 @@
 :root {
     --main-color : #efefef;
 }
-
-* {
-    /* color: var(--main-color); */
+#check:checked ~ nav ul li .drop-down {
+    background-color: #dcc000 !important;
+}
+#check:checked ~ nav ul li #active {
+  color: black !important;
 }
 a:visited {
     color: var(--main-color);

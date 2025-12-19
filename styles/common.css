@@ -124,11 +124,11 @@ header {
   transition: .3s;
 }
 #check:checked ~ nav ul li a {
-  color: #ddc000;
+  color: #ddc000 !important;
 }
 
 #check:checked ~ nav ul li #active {
-  color: black;
+  color: black !important;
 }
 #check:checked ~ nav ul li .drop-down {
   display:none;
@@ -348,6 +348,7 @@ footer {
 /* #endregion footer */
 
 
+/* #region start chat */
 
 #chat {
   display: none;
@@ -432,28 +433,8 @@ footer {
   font-size: 16px;
   color: grey;
 }
-@media screen and (max-width:900px) {
-  .chatbox {
-   
-  }
-  
-}
-@media screen and (max-width:480px) {
-  .chatbox {
-    height: 100vh;
-    width: 400px;
-  top: 10px;
-  right: 10px;
-  }
-}
-@media screen and (max-width:400px) {
-  .chatbox {
-    height: 100vh;
-    width: 330px;
-    right: 10px;
-    top: 10px;
-  }
-}
+
+/* #endregion chat */
 
 
 /* #region startmedia */
@@ -519,10 +500,9 @@ footer {
   }
   .header-cart {
     left: 48%;
-    top: 23%;
+    top: 24%;
     z-index: 4;
   }
-  
 }
 @media screen and  (max-width:480px) {
     html {
@@ -540,7 +520,7 @@ footer {
     display: none;
   }
   .header-cart {
-    top: 25%;
+    top: 27%;
     left: 45%;
   }
   label {
@@ -569,9 +549,21 @@ footer {
     bottom: 20px;
   }
 }
-
-
-
-
+@media screen and (max-width:480px) {
+  .chatbox {
+    height: 100vh;
+    width: 400px;
+  top: 10px;
+  right: 10px;
+  }
+}
+@media screen and (max-width:400px) {
+  .chatbox {
+    height: 100vh;
+    width: 330px;
+    right: 10px;
+    top: 10px;
+  }
+}
 
 /* #endregion media */
