@@ -1,6 +1,7 @@
-#check:checked ~ nav ul li:nth-child(8) {
+#check:checked ~ nav ul li:nth-child(7) {
   background-color: #ddc000;
 }
+
 
 main {
   position: absolute !important;
