@@ -500,7 +500,7 @@ footer {
   }
   .header-cart {
     left: 48%;
-    top: 24%;
+    top: 30%;
     z-index: 4;
   }
 }
@@ -520,7 +520,7 @@ footer {
     display: none;
   }
   .header-cart {
-    top: 27%;
+    top: 33%;
     left: 45%;
   }
   label {
