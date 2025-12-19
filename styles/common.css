@@ -399,15 +399,16 @@ footer {
 }
 @media screen and (max-width:640px) {
   header {
-    height: 40vh;
+    height: 30vh;
   }
   .header-logo {
     left: 85%;
+    top: 33%;
 
   }
   .header-cart {
-    left: 50%;
-    top: 30%;
+    left: 48%;
+    top: 23%;
     z-index: 4;
   }
   
@@ -428,7 +429,7 @@ footer {
     display: none;
   }
   .header-cart {
-    top: 35%;
+    top: 25%;
     left: 45%;
   }
   label {
