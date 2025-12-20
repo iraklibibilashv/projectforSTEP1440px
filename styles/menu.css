@@ -179,12 +179,19 @@ section {
         section {
         width: 95%;
     }
-
+    .menu-header2 {
+        padding-left: 10px;
+    }
+.menu-header2 p {
+    width: 260px;
+    padding-right: 10px;
+}
 }
 @media screen and (max-width:640px) {
 section {
     margin-top: 2%;
 }
+
 }
 @media screen and (max-width:400px) {
     .menu-right p {
