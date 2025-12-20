@@ -102,11 +102,12 @@ section h2 {
 
 @media screen and (max-width:640px) {
   section {
-    top: 40%;
     height: AUTO;
-    width: 90%;
-    left: 5%;
-    top: 45%;
+    width: 95%;
+    margin-top: 2%;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
 

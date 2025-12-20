@@ -120,8 +120,8 @@ section {
 
 }
 .menu-right img {
-    width: 50%;
-    height: 100%;
+    width: 135px;
+    height: 135px;
 }
 /* #endregion section */
 
@@ -131,7 +131,13 @@ section {
         flex-direction: column-reverse;
         position: relative;
         border: none;
+        padding-top: 20px;
     }
+    .menu-right img {
+        width: 260px;
+        height: 260px;
+    }
+
     .menu-right {
         width: 100%;
         
@@ -139,16 +145,12 @@ section {
     .menu-left {
         width: 100%;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
     }
     section {
         width: 95%;
     }
-    .menu-right p {
-        position: absolute;
-        bottom: -8%;
-        left: 4%;
-    }
+
     .menu-left p {
         max-width: 260px;
     }
@@ -157,15 +159,44 @@ section {
     }
     
 }
-@media screen and (max-width:500px) {
-    .menu-right p {
-        left: 7%;
+
+@media screen and (max-width:800px) {
+        .menu-right p {
+        position: absolute;
+        bottom: -8%;
+        left: 230px;
     }
-    
+
+} 
+@media screen and (max-width:600px) {
+.menu-right p {
+    left: 140px;
+}
+}
+
+@media screen and (max-width:480px) {
+    .menu-right p {
+        left: 30px;
+    }
+    .menu-left {
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:780px) {
+        section {
+        width: 95%;
+    }
+
+}
+@media screen and (max-width:640px) {
+section {
+    margin-top: 2%;
+}
 }
 @media screen and (max-width:400px) {
     .menu-right p {
-        bottom: -10%;
+        bottom: -8%;
     }
     
 }

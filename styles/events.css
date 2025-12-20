@@ -188,6 +188,7 @@ footer {
     section {
         width: 95%;
         padding-right: 10px;
+        margin-right: 0;
     }
     .section1, .section2, .section3, .section4 {
         width: 100%;
@@ -196,6 +197,7 @@ footer {
     }
     .section1 {
         text-align: center;
+        padding-bottom: 15px;
     }
     .section-left {
         border: none;
