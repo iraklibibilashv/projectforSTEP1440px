@@ -141,28 +141,18 @@ section {
 @media screen and (max-width: 800px) {
   section { width: 70%;
     right: 15%;
+    top: 10%;
     .scroll-section {
-      // overflow: hidden;
-      // scrollbar-width: none; // Firefox
-      height: 30vh;
+      overflow: hidden;
+      scrollbar-width: none;
+      height: 60vh;
     }
-  }
-}
-@media screen and (max-width: 480px) {
-  section { width: 85%;
-    right: 5%;
-    .scroll-section {
-      // overflow: hidden;
-      // scrollbar-width: none; // Firefox
-      height: 30vh;
-    }
-  }
-}
-
-@media screen and (max-height: 660px) {
-  section {
     .section4 {
-    height: 20vh;
-  }
+      height: 20vh;
+      border-top: 1px solid gray;
+    }
+    .section3 {
+      border-bottom: none;
+    }
   }
 }

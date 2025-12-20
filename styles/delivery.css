@@ -139,22 +139,18 @@ section .scroll-section {
   section {
     width: 70%;
     right: 15%;
+    top: 10%;
   }
   section .scroll-section {
-    height: 30vh;
+    overflow: hidden;
+    scrollbar-width: none;
+    height: 60vh;
   }
-}
-@media screen and (max-width: 480px) {
-  section {
-    width: 85%;
-    right: 5%;
-  }
-  section .scroll-section {
-    height: 30vh;
-  }
-}
-@media screen and (max-height: 660px) {
   section .section4 {
     height: 20vh;
+    border-top: 1px solid gray;
+  }
+  section .section3 {
+    border-bottom: none;
   }
 }/*# sourceMappingURL=delivery.css.map */
