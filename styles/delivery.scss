@@ -37,7 +37,6 @@ main {
 }
 section {
   width: 50%;
-  height: 35vh;
   background-color: black;
   position: absolute;
   right: 25%;
@@ -111,12 +110,13 @@ section {
   }
   .section4 {
     width: 100%;
+    height: 10vh;
     padding: 15px 15px;
     display: flex;
     justify-content: flex-end;
     button {
-        height: 5vh;
-        width: 20%;
+        height: 45px;
+        width: 122px;
         background-color: gray;
         color: $main-color;
         font-size: $size;
@@ -137,4 +137,32 @@ section {
 .btn-2 {
     width: 50%;
     height: 5vh;
+}
+@media screen and (max-width: 800px) {
+  section { width: 70%;
+    right: 15%;
+    .scroll-section {
+      // overflow: hidden;
+      // scrollbar-width: none; // Firefox
+      height: 30vh;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  section { width: 85%;
+    right: 5%;
+    .scroll-section {
+      // overflow: hidden;
+      // scrollbar-width: none; // Firefox
+      height: 30vh;
+    }
+  }
+}
+
+@media screen and (max-height: 660px) {
+  section {
+    .section4 {
+    height: 20vh;
+  }
+  }
 }
