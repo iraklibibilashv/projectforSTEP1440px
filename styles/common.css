@@ -532,6 +532,12 @@ footer {
   width: 100%;
   flex-direction: column-reverse;
 }
+.footer-right {
+  width: 100%;
+}
+.footer-icons {
+  width: 100%;
+}
 @media screen and (max-width:350px) {
   .header-logo {
     left: 30%;
