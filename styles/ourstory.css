@@ -10,7 +10,7 @@ main {
   position: absolute !important;
   top: 100px;
   z-index: -1;
-  height: 80vh !important;
+  height: 90vh !important;
 }
 
 section {
@@ -166,9 +166,28 @@ section {
 
 /* #region start media */
 @media screen and (max-width: 640px) {
+.section1-right {
+  padding-bottom: 30px;
+}
+.section2-right {
+  padding-bottom: 30px;
+}
+.section1-right-content p {
+  font-size: 14px;
+}
+.section2-right-content p {
+  font-size: 14px;
+}
+
+  main {
+    height: 110vh !important;
+  }
   section {
-    width: 90%;
+    width: 95%;
     margin-right: 0%;
+    margin-top: 2%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
