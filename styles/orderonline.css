@@ -285,6 +285,9 @@ section {
   .card2 {
     width: 100%;
   }
+  .section1-header4 {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 480px) {
   section {
