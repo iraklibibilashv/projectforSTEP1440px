@@ -147,10 +147,28 @@ section .scroll-section {
     height: 60vh;
   }
   section .section4 {
-    height: 20vh;
+    height: 10vh;
     border-top: 1px solid gray;
+  }
+  section .section4 button {
+    width: 100%;
   }
   section .section3 {
     border-bottom: none;
+  }
+}
+@media screen and (max-width: 610px) {
+  section {
+    width: 90%;
+    left: 35px;
+  }
+  section .section1 p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 400px) {
+  section {
+    width: 95%;
+    left: 10px;
   }
 }/*# sourceMappingURL=delivery.css.map */
