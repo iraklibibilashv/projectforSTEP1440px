@@ -13,13 +13,13 @@ html {
 }
 main {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-image: url(../images/41d000_898b811241c2fb7001c61f77a0fa10ef.avif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute !important;
-  top: 100px;
+  top: 0px;
   z-index: -1;
 }
 section {
@@ -231,6 +231,9 @@ li a:hover {
   }
   .line1 {
     width: 110px;
+  }
+  main {
+    height: 130vh;
   }
 }
 @media screen and (max-width: 460px) {

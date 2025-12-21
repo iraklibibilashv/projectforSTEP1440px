@@ -538,6 +538,7 @@ footer {
 .footer-icons {
   width: 100%;
 }
+
 @media screen and (max-width:350px) {
   .header-logo {
     left: 30%;
