@@ -2,9 +2,11 @@ main{
   position: absolute !important;
   top: 100px;
   z-index: -1;
-
   height: 85vh !important;
+}
 
+body {
+    min-height: 780px;
 }
 
 
@@ -100,7 +102,7 @@ section h2 {
 
 /* #region media */
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:7800px) {
   section {
     height: AUTO;
     width: 95%;

@@ -8,6 +8,11 @@ main{
   background-color: #ddc000;
 }
 
+
+body {
+    min-height: 780px;
+}
+
 /* #region start section */
 section {
   width: 70%;
@@ -233,7 +238,7 @@ section {
 /* #endregion beers5 */
 
 /* #region startmedia */
-@media screen and (max-width:640px) {
+@media screen and (max-width:780px) {
 section {
   width: 97%;
   margin-right: 0;
@@ -242,6 +247,8 @@ section {
   padding-right: 15px;
 
 }
+}
+@media screen and (max-width:640px) {
 .beers1-left {
   width: 100%;
   justify-content: center;

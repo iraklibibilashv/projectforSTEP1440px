@@ -14,6 +14,10 @@ a {
     color: var(--main-color);
 }
 
+body {
+    min-height: 780px;
+}
+
 
 main{
   position: absolute !important;
@@ -48,6 +52,7 @@ section {
 .section1 h5 {
     color: var(--main-color);
     font-size: 32px;
+    padding-top: 30px;
 }
 .section1 p {
     color: var(--main-color);

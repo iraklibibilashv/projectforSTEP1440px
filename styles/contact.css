@@ -2,6 +2,9 @@
   background-color: #ddc000;
 }
 
+body {
+    min-height: 780px;
+}
 
 main {
   position: absolute !important;
@@ -145,10 +148,11 @@ footer {
 
 /* #region start media */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:780px) {
   section {
     width: 97%;
     margin-right: 0%;
+    margin-top: 2%;
   }
   .section1 {
     flex-direction: column;

@@ -1,5 +1,17 @@
 
+body {
+    min-height: 780px;
+}
+
+
+
+
 /* #region startsection */
+
+
+
+
+
 section {
   width: 100%;
   background-color: black;

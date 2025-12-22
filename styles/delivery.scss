@@ -24,6 +24,10 @@ $size: 16px;
 }
 
 
+body {
+    min-height: 780px;
+}
+
 a:visited {
   color: $secondary-color;
 }

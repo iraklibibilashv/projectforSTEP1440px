@@ -6,6 +6,11 @@
   color: #ffffff;
   text-decoration: none;
 }
+
+body {
+    min-height: 780px;
+}
+
 html {
     background-color: black;
 }

@@ -10,6 +10,10 @@ main {
   height: 85vh !important;
 }
 
+body {
+    min-height: 780px;
+}
+
 section {
   width: 70%;
   background-color: black;

@@ -8,6 +8,12 @@
   list-style: none;
   color: #ddc000;
 }
+
+body {
+    min-height: 780px;
+}
+
+
 html {
   background-color: black;
 }

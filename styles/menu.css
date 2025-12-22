@@ -11,6 +11,9 @@ main{
   height: 85vh !important;
 
 }
+body {
+    min-height: 780px;
+}
 
 
 /* #region start section */
@@ -178,6 +181,7 @@ section {
 @media screen and (max-width:780px) {
         section {
         width: 95%;
+        margin-top: 2%;
     }
     .menu-header2 {
         padding-left: 10px;

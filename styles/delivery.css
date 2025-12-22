@@ -17,6 +17,10 @@
   font-family: kellyslabs, fantasy;
 }
 
+body {
+  min-height: 780px;
+}
+
 a:visited {
   color: grey;
 }

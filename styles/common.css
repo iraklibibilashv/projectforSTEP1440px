@@ -9,6 +9,10 @@
   font-family: "kelly slab", fantasy;
 }
 
+body {
+    min-height: 780px;
+}
+
 html {
   background-color: black;
   scroll-behavior: smooth;
@@ -46,7 +50,6 @@ header {
 }
 .header-left {
   width: 35%;
-  height: 25vh;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

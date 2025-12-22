@@ -7,6 +7,10 @@
     color: #efefef;
 }
 
+body {
+    min-height: 780px;
+}
+
 
 main {
     width: 100%;
