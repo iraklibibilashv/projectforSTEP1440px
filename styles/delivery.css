@@ -164,7 +164,7 @@ section .scroll-section {
 @media screen and (max-width: 610px) {
   section {
     width: 90%;
-    left: 35px;
+    left: 25px;
   }
   section .section1 p {
     font-size: 16px;
