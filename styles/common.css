@@ -138,7 +138,6 @@ header {
   position: relative;
   width: 105%;
   padding: 18px;
-  /* border: 2px solid #ddc000; */
   color: #ddc000;
   font-size: 18px;
   text-align: left;
@@ -364,7 +363,7 @@ footer {
   width: 350px;
   height: 60vh;
   background-color: white;
-  top: 330px;
+  bottom: 30px;
   right: 10px;
   display: none;
   position: fixed;
@@ -443,16 +442,28 @@ footer {
 /* #region startmedia */
 
 
-
+@media screen and (max-width: 1134px) {
+  .header-right ul a {
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .header-right {
+    gap: 10px;
+  }
+}
 
 @media screen and (max-width: 930px) {
     .header-cart {
       position: absolute;
   }
+  nav {
+    padding-left: 20px;
+  }
   
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 865px) {
   .burger-menu{
    width:26px;
     height:23px;
@@ -474,7 +485,7 @@ footer {
   
 }
   .header-right {
-    padding-right: 30px;
+    padding-right: 10px;
     padding-top: 20px;
     display: flex;
     justify-content: flex-end;
@@ -502,9 +513,10 @@ footer {
 
   }
   .header-cart {
-    left: 48%;
-    top: 30%;
-    z-index: 4;
+
+    /* top: 300px;
+    left: 280px;
+    z-index: 4; */
   }
 }
 @media screen and  (max-width:480px) {
@@ -556,7 +568,7 @@ footer {
     display: flex;
     position: fixed;
     right: 5px;
-    bottom: 20px;
+    bottom: 30px;
   }
 }
 @media screen and (max-width:480px) {

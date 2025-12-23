@@ -8,6 +8,9 @@ main{
 body {
     min-height: 780px;
 }
+li span {
+  color: black !important;
+}
 
 
 #active {
