@@ -24,6 +24,9 @@ html {
 a:visited {
   color: white ;
 }
+li a {
+  color: white;
+}
 
 /* #region startmain */
 
@@ -495,8 +498,10 @@ footer {
     display: none;
   }
 .header-cart {
-  left: 91%;
-  top: 17%;
+  /* left: 91%;
+  top: 17%; */
+  top: 130px;
+  z-index: 4;
 }
 .header-logo {
   left: 90%;
@@ -511,12 +516,6 @@ footer {
     left: 85%;
     top: 33%;
 
-  }
-  .header-cart {
-
-    /* top: 300px;
-    left: 280px;
-    z-index: 4; */
   }
 }
 @media screen and  (max-width:480px) {
@@ -535,8 +534,10 @@ footer {
     display: none;
   }
   .header-cart {
-    top: 33%;
-    left: 45%;
+    /* top: 33%;
+    left: 45%; */
+    top: 270px;
+    left: 200px;
   }
   label {
     position: absolute;
@@ -557,6 +558,12 @@ footer {
 @media screen and (max-width:350px) {
   .header-logo {
     left: 30%;
+  }
+    .header-cart {
+    /* top: 33%;
+    left: 45%; */
+    top: 270px;
+    left: 150px;
   }
 }
 }
