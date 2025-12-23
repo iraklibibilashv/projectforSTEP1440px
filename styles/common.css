@@ -18,15 +18,7 @@ html {
   scroll-behavior: smooth;
  
 }
-#active {
-  color: #dddc33 !important;
-}
-a:visited {
-  color: white ;
-}
-li a {
-  color: white;
-}
+
 
 /* #region startmain */
 
@@ -228,6 +220,15 @@ header {
 a:active {
   color: #ddc000;
 }
+#active {
+  color: #dddc33 !important;
+}
+a:visited {
+  color: white ;
+}
+li a {
+  color: white;
+}
 nav li {
   position: relative;
 }
@@ -301,6 +302,7 @@ footer {
 }
 .footer-left a {
   text-decoration: underline;
+  color: white;
 }
 .footer-right {
   width: 40%;
