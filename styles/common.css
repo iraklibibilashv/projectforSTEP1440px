@@ -578,7 +578,7 @@ footer {
   .chatbox {
     height: 80vh;
     width: 400px;
-  top: 50px;
+  top: 20px;
   right: 10px;
   }
 }
@@ -587,7 +587,7 @@ footer {
     height: 80vh;
     width: 300px;
     right: 10px;
-    top: 50px;
+    top: 20px;
   }
 }
 
