@@ -11,6 +11,7 @@ main{
 
 body {
     min-height: 780px;
+    max-height: 780px;
 }
 
 /* #region start section */
