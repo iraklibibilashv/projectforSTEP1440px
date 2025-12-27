@@ -9,8 +9,7 @@
 }
 
 body {
-  min-height: 780px;
-  max-height: 780px;
+  min-height: 700px;
 }
 
 html {
@@ -500,11 +499,31 @@ footer {
 }
 @media screen and (max-width: 640px) {
   header {
-    height: 40vh;
+    flex-direction: column;
   }
-  .header-logo {
-    left: 85%;
-    top: 33%;
+    .header-left {
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 70px;
+  }
+    .header-right {
+    width: 100%;
+    height: 50%;
+    align-items: flex-start;
+    justify-content: center;
+  }
+    .header-logo {
+    position: static;
+    
+  }
+  .header-cart {
+    position: static;
+  }
+  .menu-burger {
+    position: absolute;
+    top: 10px;
+    right: 7px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -516,15 +535,11 @@ footer {
   header {
     margin-top: 20px;
   }
-  .header-logo {
-    left: 60%;
+    .menu-burger {
+    top: 30px;
   }
   .header-borderline {
     display: none;
-  }
-  .header-cart {
-    top: 270px;
-    left: 200px;
   }
   label {
     position: absolute;
@@ -540,16 +555,6 @@ footer {
   }
   .footer-icons {
     width: 100%;
-  }
-
-  @media screen and (max-width: 350px) {
-    .header-logo {
-      left: 30%;
-    }
-    .header-cart {
-      top: 270px;
-      left: 150px;
-    }
   }
 }
 @media screen and (max-width: 900px) {
