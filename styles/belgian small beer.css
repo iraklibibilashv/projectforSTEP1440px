@@ -187,6 +187,9 @@ padding: 20px;
         width: 70%;
         left: 18%;
     }
+        main {
+      height: 130vh;
+    }
 }
 @media screen and (max-width:400px) {
  section {
