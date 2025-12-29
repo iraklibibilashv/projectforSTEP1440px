@@ -28,6 +28,9 @@ section {
   gap: 10px;
   flex-wrap: wrap;
 }
+.cards > div {
+  min-width: 300px;
+}
 .card1 {
   display: flex;
   flex-direction: column;
@@ -246,7 +249,9 @@ section {
   .cards-borderline {
     width: 90%;
   }
-
+.cards > div {
+  min-width: 0px;
+}
 }
 
 /* #endregion media */
