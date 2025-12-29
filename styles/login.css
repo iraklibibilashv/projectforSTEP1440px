@@ -214,7 +214,10 @@ nav {
   font-family: "open sans", sans-serif;
   font-size: 12px;
 }
-a:hover {
+.input-line2 a:hover {
+  text-decoration: underline;
+}
+.full-input3 a:hover {
   text-decoration: underline;
 }
 li a:hover {
