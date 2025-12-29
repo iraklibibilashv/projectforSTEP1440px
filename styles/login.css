@@ -19,7 +19,7 @@ html {
 }
 main {
   width: 100%;
-  height: 120vh;
+  height: 130vh;
   background-image: url(../images/41d000_898b811241c2fb7001c61f77a0fa10ef.avif);
   background-position: center;
   background-size: cover;
@@ -64,6 +64,15 @@ form {
 .form-header p {
   font-family: "open sans", sans-serif;
   font-size: 20px;
+}
+.form-header a {
+  font-family: "open sans", sans-serif;
+  font-size: 36px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 .full-input {
   padding-top: 50px;
