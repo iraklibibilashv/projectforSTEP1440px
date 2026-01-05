@@ -203,6 +203,8 @@ form {
 }
 nav {
   width: 100%;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 .footer nav ul {
   width: 100%;
